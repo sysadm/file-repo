@@ -32,4 +32,13 @@ That's really important, 'cause search results must be filtered according to use
 * Something was called 'Category' is just a tag for every asset. And as I can imagine asset can has many tags.
 Some of them (like kind by file extension) can be assigned automatically. All other can be assign by user (with
 autocomplete functionality to avoid tag duplication and misspelling).
+* Probably users isn't equal. Someone need to be admin or have another role. Maybe it's a good idea to create appropriate model Role.
 
+## Database scheme
+
+[![Database scheme](https://raw.githubusercontent.com/sysadm/file-repo/master/filerepo-scheme.png)](#dbscheme)
+
+I had used MySQL Workbench to create a database schema, 'cause it's really nice and user-friendly tool.
+But it's a reason why models in this scheme has different type of fields not such as a postgresql database.
+
+### Anything else can be done with writing a code.
