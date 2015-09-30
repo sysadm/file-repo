@@ -36,7 +36,7 @@ autocomplete functionality to avoid tag duplication and misspelling).
 
 ## Database scheme
 
-[![Database scheme](https://raw.githubusercontent.com/sysadm/file-repo/master/filerepo-scheme.png)](#dbscheme)
+[![Database scheme](https://raw.githubusercontent.com/sysadm/file-repo/master/assets/filerepo-scheme.png)](#dbscheme)
 
 I had used MySQL Workbench to create a database schema, 'cause it's really nice and user-friendly tool.
 But it's a reason why models in this scheme has different type of fields not such as a postgresql database.
